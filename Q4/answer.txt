@@ -1,1 +1,13 @@
+1.
+Truncate meliorating the contrast by turning all the value larger than 127 into threshold.
+Binary turns all the values larger than threshold into 255, and all the others into 0, which results in a picture with only balck and white.
+In band, the first step is to conduct truncate with threshold 27, leading to result 1. The second step is to conduct truncate with threshold 125, leading to result 2. The third step is to get result by multiplying result 1 and result 2. Finally there is the a lot of bands, and the white part and black parts reversed.  
+Semi is a method that can adjust the threshold automatically. Thus the contrast is not as instinct as Truncate.
+Adaptive calculates thresholds in different areas devides according to brightness, which leads to better preservation for oringin information, 
 
+
+2.
+Threshold causes a great lost of information
+
+3.
+It's useful in pictures with complicated variation of brightness.
