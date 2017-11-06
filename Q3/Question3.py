@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
 import cv2
 import numpy as np
 
@@ -42,6 +41,24 @@ def main():
     cv2.imwrite("gaussiannoise.png",gauss_noiseImage)
     pepper_saltImage=Add_salt_pepper_Noise(gray,pa,pb)
     cv2.imwrite("peppersaltnoise.png",pepper_saltImage)
+    
+    x=[0,5,10,20]
+    y=[0.01,0.03,0.05,0.4]
+    for i in x:
+        for j in x:
+            gnoise=Add_gaussian_Noise(pic, i, j)
+            temp = np.square(pic - gnoise).mean()
+            m=str(i)
+            n=str(j)
+            print("mean:"+m+" "+",sigma:"+n+" noise value:",temp)
+        
+    for i in y:
+        for j in y:
+            pnoise=Add_salt_pepper_Noise(pic, i, j)
+            temp = np.square(pic - pnoise).mean()
+            m=str(i)
+            n=str(j)
+            print("pa:"+m+" "+",pb:"+n+" noise value:",temp)
 
     for i in range (1,4):
         k=2*i+1
