@@ -10,13 +10,13 @@ for i in names:
     srcc=src+i
     img=cv2.imread(srcc,cv2.IMREAD_COLOR)
     hsv=cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
-    ycrcb=cv2.cvtColor(img,cv2.COLOR_BGR2YCrCb)
+    yuv=cv2.cvtColor(img,cv2.COLOR_BGR2YCrCb)
     R,G,B=cv2.split(img)
     H,S,V=cv2.split(hsv)
-    Y,cr,cb=cv2.split(ycrcb)
+    Y,U,V=cv2.split(yuv)
     
-    N=["R","G","B","H","S","V","Y","Cr","Cb"]
-    M=[R,G,B,H,S,V,Y,cr,cb]
+    N=["R","G","B","H","S","V","Y","U","V"]
+    M=[R,G,B,H,S,V,Y,U,V]
 
     
     print(i+" "+"RGB"+":",img[20,25])
