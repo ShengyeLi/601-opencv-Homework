@@ -1,0 +1,26 @@
+Lenna.png RGB: [106 122 225]
+Lenna.png HSV: [  4 135 225]
+Lenna.png YUV: [151 181 103]
+coins.png RGB: [52 52 52]
+coins.png HSV: [ 0  0 52]
+coins.png YUV: [ 52 128 128]
+baboon.jpg RGB: [102 165 156]
+baboon.jpg HSV: [ 34  97 165]
+baboon.jpg YUV: [155 129  98]
+cameraman.png RGB: [161 161 161]
+cameraman.png HSV: [  0   0 161]
+cameraman.png YUV: [161 128 128]
+rice_grains.jpg RGB: [115 115 115]
+rice_grains.jpg HSV: [  0   0 115]
+rice_grains.jpg YUV: [115 128 128]
+barbara.png RGB: [67 67 67]
+barbara.png HSV: [ 0  0 67]
+barbara.png YUV: [ 67 128 128]
+
+The value of RGB is between 0 and 255. If the picture is of gray, the three values in R, G, and B is same.
+The value of H is between 0 and 360.
+The value of S is between 0 and 100.
+The value of V is between 0 and 100.
+Y = 0.257R + 0.504G + 0.098B + 16
+Cr = 0.148R - 0.291G + 0.439B + 128
+Cb = 0.439R - 0.368G - 0.071B + 128
