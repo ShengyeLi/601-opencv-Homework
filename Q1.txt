@@ -1,0 +1,2 @@
+For any colorful pictures, they are presented by three matrix with the same dimensions, every of them present the value distribution in one channel.
+For example, for a picture name a, a[1] is its first coulum, a[3][4] is the pixil in 3th culoum and 4th row, a[3][4][0]is the R value of this pixil. 
