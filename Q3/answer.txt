@@ -1,3 +1,36 @@
+mean:0 ,sigma:0 noise value: 0.0
+mean:0 ,sigma:5 noise value: 4.12013880412
+mean:0 ,sigma:10 noise value: 10.094678243
+mean:0 ,sigma:20 noise value: 14.6331876119
+mean:5 ,sigma:0 noise value: 8.33333333333
+mean:5 ,sigma:5 noise value: 14.4751904806
+mean:5 ,sigma:10 noise value: 17.2674204508
+mean:5 ,sigma:20 noise value: 18.4621823629
+mean:10 ,sigma:0 noise value: 33.3333333333
+mean:10 ,sigma:5 noise value: 29.5540822347
+mean:10 ,sigma:10 noise value: 24.9309565226
+mean:10 ,sigma:20 noise value: 22.3637301127
+mean:20 ,sigma:0 noise value: 48.0
+mean:20 ,sigma:5 noise value: 39.0811220805
+mean:20 ,sigma:10 noise value: 35.5253410339
+mean:20 ,sigma:20 noise value: 29.5887718201
+pa:0.01 ,pb:0.01 noise value: 0.0
+pa:0.01 ,pb:0.03 noise value: 0.0
+pa:0.01 ,pb:0.05 noise value: 0.0
+pa:0.01 ,pb:0.4 noise value: 0.0
+pa:0.03 ,pb:0.01 noise value: 0.0
+pa:0.03 ,pb:0.03 noise value: 0.0
+pa:0.03 ,pb:0.05 noise value: 0.0
+pa:0.03 ,pb:0.4 noise value: 0.0
+pa:0.05 ,pb:0.01 noise value: 0.0
+pa:0.05 ,pb:0.03 noise value: 0.0
+pa:0.05 ,pb:0.05 noise value: 0.0
+pa:0.05 ,pb:0.4 noise value: 0.0
+pa:0.4 ,pb:0.01 noise value: 0.0
+pa:0.4 ,pb:0.03 noise value: 0.0
+pa:0.4 ,pb:0.05 noise value: 0.0
+pa:0.4 ,pb:0.4 noise value: 0.0
+
 For Salt-and-pepper noise, Median filter is the best, and the difference among 3 different sizes of kernel effects little in this filter.
 However, in other filters, larger the kernel, better the result.
 
