@@ -1,0 +1,9 @@
+For Salt-and-pepper noise, Median filter is the best, and the difference among 3 different sizes of kernel effects little in this filter.
+However, in other filters, larger the kernel, better the result.
+
+For Gaussian noise, it's hard to evaluate their performance. 
+It seems that filter that eliminate more noise has to cause more ambiguity to the output.
+Gauss-median filter does well in restore details with least ambiguity, but it leaves some white areas.
+Gaussfilter and gaussianboxfilter are similar, and Gaussianboxfilter makes the picture more smooth.
+And the performance of filter increases with kernels' size increases.
+
